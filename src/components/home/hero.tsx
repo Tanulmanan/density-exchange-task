@@ -4,8 +4,10 @@ import AppStore from '@/components/icons/appStore';
 
 const Hero = () => {
   return (
-    <div className='flex flex-col rounded-[48px] justify-center px-12 h-[calc(100vh-85px)] bg-violet-100'>
-      <p className='mb-6'>Ahead Life</p>
+    <div className='flex h-[calc(100vh-85px)] flex-col justify-center rounded-[48px] bg-violet-100 px-12'>
+      <p className=' mb-6 text-lg'>
+        <strong>Ahead Life</strong>
+      </p>
       <h1 className='text-7xl'>
         Master your life <br />
         by mastering <br />

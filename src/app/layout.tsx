@@ -49,7 +49,7 @@ export default function RootLayout({
       <body>
         <ComponentsLayout>
           <Header />
-          <div className='max-w-[1500px]'>{children}</div>
+          <div className='max-w-[1500px] overflow-x-hidden'>{children}</div>
         </ComponentsLayout>
       </body>
     </html>

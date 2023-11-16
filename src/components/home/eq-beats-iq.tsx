@@ -1,28 +1,28 @@
 import React from 'react';
 
+import WhileInViewAnimate from '@/components/home/whileinviewanimate';
+
 const EQBeatsIQ = () => {
   return (
-    <div className='py-36 px-20 grid grid-cols-3'>
-      <div className='col-span-1'>
-        <h2 className='text-4xl'>EQ Beats IQ</h2>
+    <WhileInViewAnimate>
+      <div className='grid grid-cols-3 px-20 py-36'>
+        <div className='col-span-1'>
+          <h2 className='text-4xl'>EQ Beats IQ</h2>
+        </div>
+        <div className='col-span-1 w-[80%] font-medium text-zinc-700'>
+          <p>
+            People with high emotional intelligence (EQ) live more fulfilled
+            lives. They tend to be happier and have healthier relationships.
+          </p>
+        </div>
+        <div className='col-span-1 w-[80%] font-medium text-zinc-700'>
+          <p>
+            They are more successful in their pursuits and make for inspiring
+            leaders. According to science, they earn $29k a year.
+          </p>
+        </div>
       </div>
-      <div className='col-span-1 font-medium text-zinc-700 w-[80%]'>
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis quas
-          modi quod voluptatum obcaecati quibusdam, veritatis minus officiis
-          nobis repellat voluptates consequuntur nostrum suscipit eaque.
-          Consequuntur id inventore ex deserunt!
-        </p>
-      </div>
-      <div className='col-span-1 font-medium text-zinc-700 w-[80%]'>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum illum,
-          consequatur omnis unde quibusdam nesciunt consequuntur dolores
-          explicabo sint vel tempore vitae suscipit accusamus, accusantium iste
-          sequi veniam, laborum autem!
-        </p>
-      </div>
-    </div>
+    </WhileInViewAnimate>
   );
 };
 
